@@ -1,0 +1,97 @@
+body{
+    margin:0px
+}
+
+form{
+    display: inline-block;
+    width: 50vw;
+
+}
+main{
+    padding: 10px;
+}
+
+#Name,#Prenom,#mail,#dtn{
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+   
+}
+.sex{
+    border: 2px solid #eaac8b;
+    width: fit-content;
+}
+
+aside{
+    border: none;
+    float: none;
+}
+table,tr,th,td{
+    border: 2px solid #e56b6f;
+    width: 500px;
+    height: 65px;
+   
+}
+
+aside{ 
+    float: right;
+}
+.div1{
+    overflow: auto;}
+
+.div2{
+    clear: both;
+}
+
+.sex{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.uppercase{
+    font-style: italic;
+}
+
+.cv{
+    padding: 10px;
+}
+#myfile{
+    margin: 10px;
+    background-color:#e56b6f ;
+    border-radius: 5px;
+}
+
+.city{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#button{
+    color: #eaac8b;
+    height: 30px;
+    background-color: transparent;
+    border-radius:  5px; 
+    border: thin solid ;
+    padding: 10px;
+    margin: 10px;
+}
+
+#button:hover{
+    box-shadow: 2px 2px 4px  #e56b6f;
+}
+
+
+
+th, td{
+    text-align: center;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+.div2{
+    margin: 20px;
+}

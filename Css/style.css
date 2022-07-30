@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  background-image: url(../img/astronomy-constellation-dark-998641.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
+}
+
+header > h2,
+nav,
+ul,
+nav > ul > li {
+  display: inline-block;
+  margin: 0px;
+}
+
+header {
+  padding: 20px;
+  background-color: #e56b6f;
+  overflow: auto;
+}
+a {
+  text-decoration: none;
+  font-size: x-large;
+  color: #eaac8b;
+  padding: 17px 22px 22px 22px;
+}
+
+a:hover {
+  background-color: #355070;
+  border-radius: 0px 10px 0px 10px;
+  border-top: solid #eaac8b;
+  border-right: solid #eaac8b;
+}
+
+span {
+  float: right;
+}
+
+header > h2 {
+  color: #eaac8b;
+  font-size: x-large;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+#search {
+  height: 30px;
+  border-radius: 5px;
+}
+
+#search:focus {
+  outline: 2px solid #eaac8b;
+}
+
+.button {
+  color: #eaac8b;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: thin solid #eaac8b;
+}
+
+button:hover {
+  box-shadow: 1px 1px 2px white;
+}
+
+.banner {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1000px;
+}
+main {
+  margin: 20px;
+}
+
+section {
+  display: inline-block;
+  width: 50vw;
+  margin: 20px;
+}
+
+section > h2 {
+  color: #e56b6f;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+aside {
+  float: right;
+  border: 5px double #eaac8b;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.color {
+  background-color: #355070;
+}
+
+.italique {
+  font-style: italic;
+  background-color: #e56b6f;
+}
+aside > h2 {
+  color: #e56b6f;
+  padding: 5px;
+  border-bottom: 3px #eaac8b solid;
+  margin: 0px;
+}
+
+#firstsection {
+  overflow: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.logo1 {
+  float: left;
+  margin-right: 10px;
+}
+.logo2 {
+  float: right;
+  margin-left: 10px;
+}
+
+#secondsection article {
+  width: 45vw;
+  display: inline-block;
+  padding: 20px;
+}
+
+#secondsection {
+  overflow: auto;
+}
+article > h2 {
+  color: #e56b6f;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+footer {
+  text-align: center;
+  background-color: #e56b6f;
+  padding: 20px;
+  font-size: x-large;
+}
